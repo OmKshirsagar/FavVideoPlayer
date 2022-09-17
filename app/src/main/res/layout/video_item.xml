@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="?attr/selectableItemBackground"
+    android:layout_margin="5dp"
+    android:padding="10dp">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/thumbnail_card"
+        android:layout_width="112dp"
+        android:layout_height="62dp"
+        app:cardCornerRadius="3dp">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/vpicon" />
+
+        <TextView
+            android:id="@+id/video_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:padding="4dp"
+            android:text="4:12"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:background="@color/lightDark"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="224dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/video_menu_more"
+        android:layout_toEndOf="@+id/thumbnail_card"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/video_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="4 mb"
+            android:textColor="@color/lightDark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/video_name"
+            tools:layout_conversion_absoluteHeight="17dp"
+            tools:layout_conversion_absoluteWidth="32dp" />
+
+        <TextView
+            android:id="@+id/video_name"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="9dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Video Name "
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/video_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="0dp"
+            tools:layout_conversion_absoluteWidth="80dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/video_menu_more"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:foregroundTint="@color/lightDark"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_more"/>
+
+</RelativeLayout>

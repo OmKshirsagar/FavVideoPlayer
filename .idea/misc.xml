@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/OmKshirsagar/AndroidStudioProjects/FavVideoPlayer/app/src/main/res/drawable/fit.xml" value="0.1" />
+        <entry key="..\:/Users/OmKshirsagar/AndroidStudioProjects/FavVideoPlayer/app/src/main/res/drawable/ic_more.xml" value="0.2965" />
+        <entry key="..\:/Users/OmKshirsagar/AndroidStudioProjects/FavVideoPlayer/app/src/main/res/drawable/splash_background.xml" value="0.1665" />
+        <entry key="..\:/Users/OmKshirsagar/AndroidStudioProjects/FavVideoPlayer/app/src/main/res/layout/activity_allow_access.xml" value="0.2" />
+        <entry key="..\:/Users/OmKshirsagar/AndroidStudioProjects/FavVideoPlayer/app/src/main/res/layout/activity_main.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/OmKshirsagar/AndroidStudioProjects/FavVideoPlayer/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/OmKshirsagar/AndroidStudioProjects/FavVideoPlayer/app/src/main/res/layout/activity_video_files.xml" value="0.115625" />
+        <entry key="..\:/Users/OmKshirsagar/AndroidStudioProjects/FavVideoPlayer/app/src/main/res/layout/activity_video_player.xml" value="0.2" />
+        <entry key="..\:/Users/OmKshirsagar/AndroidStudioProjects/FavVideoPlayer/app/src/main/res/layout/custom_playback_view.xml" value="0.1" />
+        <entry key="..\:/Users/OmKshirsagar/AndroidStudioProjects/FavVideoPlayer/app/src/main/res/layout/folder_items.xml" value="0.22" />
+        <entry key="..\:/Users/OmKshirsagar/AndroidStudioProjects/FavVideoPlayer/app/src/main/res/layout/folders_item.xml" value="0.15" />
+        <entry key="..\:/Users/OmKshirsagar/AndroidStudioProjects/FavVideoPlayer/app/src/main/res/layout/video_item.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

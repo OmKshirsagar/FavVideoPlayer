@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fav Video Player</string>
+    <string name="AccessText1">Thank You for installing our Fav Video Player</string>
+    <string name="AccessText2">To use our app, we need permissions to access all the video files on your device.</string>
+</resources>
